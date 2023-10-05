@@ -1,19 +1,13 @@
 import React, { useState } from 'react';
 
 const LoginPage = () => {
-  // Define state variables for email and password inputs.
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  // Handle form submission when the user tries to log in.
+
   const handleLogin = async (e) => {
     e.preventDefault();
-
-    // Perform the API call to authenticate the user here.
-    // You can use the axios code mentioned in the previous response.
-
-    // Once authenticated, redirect the user to the dashboard.
-    // You can use React Router for navigation.
   };
 
   return (
